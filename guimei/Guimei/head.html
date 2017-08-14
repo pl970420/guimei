@@ -1,26 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>head</title>
     <link rel="stylesheet" href="css/head.css">
-    <script type="text/javascript">
-        window.onload=function(){
-            var time_obj =document.getElementById("time");
-            function clock(){
-                var time=new Date();
-                var year=time.getFullYear();
-                var month=time.getMonth()+1;
-                var day=time.getDate();
-                var hours=time.getHours();
-                var minutes=time.getMinutes();
-                var seconds=time.getSeconds();
-                time_obj.innerHTML="";
-                time_obj.innerText=year+"年"+month+"月"+day+"日"+hours+"时"+minutes+"分"+seconds+"秒";
-            }
-            setInterval(function(){clock()},1000)
-        }
-    </script>
+   
 </head>
 <body>
 <div>
