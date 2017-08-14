@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>regiest</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script type="text/javascript">
+        var register,firstname,nickname,mima,again,mail;
+        register=document.getElementById("register").value;
+        firstname=document.getElementById("firstname").value;
+        nickname=document.getElementById("nickname").value;
+        mima=document.getElementById("mima").value;
+        again=document.getElementById("again").value;
+        mail=document.getElementById("mail").value;
+function name(){
+    var name=/[\u4e00-\u9fa5]/;
+    if(){}
+}
+
+    </script>
+</head>
+<body>
+<div id="head">
+    <iframe src="head.html"></iframe>
+</div>
+<!--头结束-->
+<form action="" method="post">
+    <div id="main">
+        <div id="left">
+            <table>
+                <tr>
+                    <td class="textright"><label for="register">名字：</label></td>
+                    <td><input class="text" type="text" name="name" id="register" value=""></td>
+                </tr>
+                <tr>
+                    <td class="textright"><label for="first">姓氏：</label></td>
+                    <td><input class="text" type="text" name="firstname" id="first" value=""></td>
+                </tr>
+                <tr>
+                    <td class="textright"><label for="nick">登录名：</label></td>
+                    <td><input class="text" type="text" name="nickname" id="nick" value="">（可包含a-z0-9和下划线）</td>
+                </tr>
+                <tr>
+                    <td class="textright"><label for="mima">密码：</label></td>
+                    <td><input class="pwd" type="password" id="mima" value=""></td>
+                </tr>
+                <tr>
+                    <td class="textright"><label for="again">再次输入密码：</label></td>
+                    <td><input class="pwd" type="password" id="again" value=""></td>
+                </tr>
+                <tr>
+                    <td class="textright"><label for="mail">电子邮箱：</label></td>
+                    <td><input class="text" type="text" name="" id="mail" value=""></td>
+                </tr>
+                <tr>
+                    <td class="textright">性别：</td>
+                    <td><input type="radio" id="1" name="gender"><img src="images/Male.gif" alt="">男
+                        <input type="radio" id="2" name="gender"><img src="images/Female.gif" alt="">女
+                    </td>
+                </tr>
+                <tr>
+                    <td class="textright">头像：</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td class="textright">爱好：</td>
+                    <td>
+                        <input type="checkbox">运动<input type="checkbox">聊天
+                        <input type="checkbox">玩游戏
+                    </td>
+                </tr>
+                <tr>
+                    <td  class="textright">出生日期：</td>
+                    <td>
+                        <input id="year" type="text" value="yyyy">年
+                        <select>
+                            <option>[选择月份]</option>
+                            <option>[选择]</option>
+                        </select>月
+                        <select>
+                            <option>dd</option>
+                        </select>日
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="registerOK.html"><img src="images/submit.gif" alt=""></a> 
+                    </td>
+                    <td>
+                        <form action="#"><input type="image" src="images/reset.gif"></form>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div id=right>
+            <img src="images/read.gif">阅读贵美网服务协议<br>
+            <div id="textarea">
+    <textarea name="read" cols="30" rows="15">
+技术服务项目内部定价程序的第一步，是根据技因为技术服务的价格偏低而膨胀，因此，技术服务项目的宜采用高定价，用高定价给企业带来高利润。
+    </textarea>
+        </div>
+        </div>
+    </div>
+</form>
+<!--尾开始-->
+<div id="foot">
+    <iframe src="foot.html"></iframe>
+</div>
+</body>
+</html>

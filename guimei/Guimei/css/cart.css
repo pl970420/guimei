@@ -1,0 +1,137 @@
+* {
+    font-size: 12px;
+}
+
+#head {
+    width: 1000px;
+    height: 155px;
+    margin: auto;
+
+}
+
+#foot {
+
+    width: 1000px;
+    height:800px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+iframe {
+    width: 1000px;
+    height: 300px;
+    border: 0;
+}
+
+#cart {
+    width: 980px;
+    height: 350px;
+    margin: auto;
+
+}
+
+#tips {
+    width: 494px;
+}
+
+.freight {
+    background-image: url("../images/buytitle_bg.gif");
+    background-repeat: no-repeat;
+    width: 980px;
+    height: 32px;
+}
+
+#td1 {
+    width: 216px;;
+}
+
+#td2 {
+    width: 156px;
+    font-weight: bold;
+}
+
+#td3 {
+    width: 106px;
+    font-weight: bold;
+}
+
+#td4 {
+    width: 890px;
+    font-weight: bold;
+    text-indent: 5em;
+}
+
+#price {
+    width: 891px;
+    cellspacing: 10px;
+}
+
+#th1 {
+    width: 355px;
+    font-weight: bold;
+}
+
+#th2 {
+    width: 55px;
+}
+
+#th3 {
+    width: 55px;
+}
+
+#th4 {
+    width: 36px;
+}
+
+#th5 {
+    width: 177px;
+}
+
+#th6 {
+    width: 131px;
+}
+
+.gary {
+    color: gainsboro;
+}
+
+.red {
+    color: red;
+}
+
+.delete {
+    text-align: center;
+}
+
+#all {
+    text-align: center;
+}
+
+#add {
+    width: 890px;
+    font-weight: bold;
+    text-indent: 5em;
+}
+
+#info {
+    margin-left: 100px;
+    width: 600px;
+}
+
+#tel1 {
+    width: 30px;
+}
+
+#tel2 {
+    width: 70px
+}
+
+#tel3 {
+    width: 30px
+}
+
+#submit {
+    margin-left: 80px;
+    margin-top: 20px;
+}

@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    width: 976px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+#foot {
+
+    width: 1000px;
+    height:800px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+iframe {
+    width: 1000px;
+    height: 150px;
+    border: 0;
+}
+#container {
+    margin: auto;
+    width: 976px;
+    height: 800px;
+}
+
+#body {
+    margin: auto;
+    width: 976px;
+    height: auto;
+    float: left;
+}
+
+#main {
+    background-image: url("../images/bg.gif");
+    width: 980px;
+    height: 660px;
+}
+
+#sidebar_a {
+    float: left;
+    padding-top: 40px;
+    font-size: 12px;
+    width: 200px;
+    height: 610px;
+}
+    a{
+        color: black;
+        text-decoration: none;
+
+
+    }
+.list {
+}
+
+.list ul {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.list ul li {
+    list-style-type: none;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+}
+
+#goods-type {
+    width: 180px;
+    text-align: left;
+    text-indent: 1em;
+    height: 25px;
+    color: orange;
+}
+
+#goods-type2 {
+    width: 180px;
+    text-align: left;
+    text-indent: 1em;
+    height: 22px;
+    color: orange;
+}
+
+#goods-type3 {
+    width: 180px;
+    text-align: left;
+    text-indent: 1em;
+    height: 20px;
+    color: orange;
+}
+
+#goods-type4 {
+    width: 180px;
+    text-align: left;
+    text-indent: 1em;
+    height: 23px;
+    color: orange;
+}
+
+#scroll {
+    float: left;
+    width: 520px;
+    height: 190px;
+    margin: 10px;
+}
+
+#below {
+    float: left;
+    margin: 20px;
+    width: 520px;
+    height: 420px;
+}
+
+#below dl {
+    float: left;
+
+    margin: 8px;
+    width: 145px;
+    height: 120px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+#below dl dt img {
+    border: solid 1px #cccccc;
+}
+
+#below dl dd {
+    text-align: center;
+    margin-left: 0;
+}
+
+#below dl dd a {
+
+    text-decoration: none;
+    color: black;
+}
+
+#sidebar_b {
+    float: left;
+    width: 200px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: -35px;
+}
+
+#rightlist {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+#rightlist dl {
+    margin-top: 10px;
+    height: 50px;
+    border: solid 1px white;
+}
+
+#rightlist dl dt {
+    float: left;
+}
+
+#rightlist dl dd {
+    float: left;
+    height: 20px;
+    line-height: 40px;
+}
+
+#rightlist dl dd a {
+
+    line-height: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#rightlist dl dd a:hover {
+
+    text-decoration: none;
+    color: orange;
+}
+
+#rightlist img {
+    border: solid 1px #cccccc;
+}
+#tab{
+    margin-top: 22px;
+    width: 155px;
+height: 155px;
+}
+#tab_1{
+    margin-left: 70px;
+    height: 40px;
+    width: 70px;
+}
+
+#tab_1 li{
+    list-style-type: none;
+    position: relative;
+    top: 30px;
+    left: -70px;
+    width: 200px;
+    height: 155px;
+
+}
+#tab_1:hover li{
+    background-image: url("../images/tab2.gif");
+}
+
+

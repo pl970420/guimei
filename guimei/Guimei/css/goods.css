@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#head {
+    width: 976px;
+    height: 150px;
+    margin: auto;
+}
+
+#foot {
+
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+iframe {
+    width: 1000px;
+    height: 150px;
+    border: 0;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#info {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    border-top: solid 1px gainsboro;
+    border-bottom: solid 1px gainsboro;
+}
+
+#left {
+    float: left;
+    width: 380px;
+    height: 380px;
+    padding: 10px;
+}
+
+.pic {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+}
+
+#list {
+    float: left;
+    width: 300px;
+    height: 35px;
+    margin: 10px 10px;
+}
+
+#fav {
+    margin-left: 50px;
+}
+
+#right {
+    float: left;
+    width: 380px;
+    height: 380px;
+}
+
+table {
+    font-size: 12px;
+    width: 380px;
+    height: 380px;
+
+}
+
+table tr td {
+    border-bottom: 1px #cccccc dashed;
+}
+
+#tips {
+    width: 380px;
+    height: 40px;
+}
+
+#tips img {
+    width: 80px;
+    height: 40px;
+    vertical-align: middle;
+    float: left;
+}

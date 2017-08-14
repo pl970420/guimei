@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    width: 976px;
+    height: 150px;
+    margin: auto;
+}
+
+#foot {
+
+    width: 1000px;
+    height:800px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+iframe {
+    width: 1000px;
+    height: 300px;
+    border: 0;
+}
+
+#register {
+    margin: auto;
+    width: 976px;
+    height: 500px;
+}
+
+#logo {
+    width: 380px;
+    height: 100px;
+    margin: auto;
+}
+
+#text {
+    text-align: center;
+    line-height: 50px;
+
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+<div id="head">
+    <iframe src="head.html" width="1000px" height="155px" frameborder="0"></iframe>
+</div>
+<div id="cart">
+    <table id="tips">
+        <tr>
+            <td id="td1">
+                <img src="images/mycart.gif"/>
+
+            </td>
+            <td id="td2">全场运费一律2元</td>
+            <td id="td3">简易计算器</td>
+        </tr>
+    </table>
+    <table class="freight">
+        <tr>
+            <td id="td4">
+                确认商品价格与交易条件
+            </td>
+        </tr>
+    </table>
+
+    <form action="">
+        <table id="price">
+            <tr>
+                <th id="th1">商品名</th>
+                <th id="th2">原价</th>
+                <th id="th3">优惠价</th>
+                <th id="th4">打折</th>
+                <th id="th5">数量</th>
+                <th id="th6">删除</th>
+            </tr>
+            <tr>
+                <td>攀高搓捶背靠垫按摩器（蓝色）（定制）</td>
+                <td class="gary">&yen;258.00</td>
+                <td class="red">&yen;129.00</td>
+                <td>50折</td>
+                <td>
+                    <input type="text" value="1">
+                </td>
+                <td class="delete">
+                    删除
+                </td>
+            </tr>
+            <tr>
+                <td>郝冰美国口语-美国口语成功训练系统（MP3）</td>
+                <td class="gary"> &yen;480.00</td>
+                <td class="red">  &yen;292.00</td>
+                <td>60折</td>
+                <td>
+                    <input type="text" value="1">
+                </td>
+                <td class="delete">
+                    删除
+                </td>
+            </tr>
+            <tr>
+                <td>简.奥斯汀全集（DVD-9）（赠BBC产品目录……）</td>
+                <td class="gary"> &yen;138.00</td>
+                <td class="red">  &yen;103.00</td>
+                <td>80折</td>
+                <td>
+                    <input type="text" value="1">
+                </td>
+                <td class="delete">
+                    删除
+                </td>
+            </tr>
+            <tr>
+                <td>继续挑选商品</td>
+                <td colspan="2" id="all">&yen;257.40</td>
+                <td colspan="3">你共节省&yen;348.60</td>
+            </tr>
+        </table>
+        <table class="freight">
+            <tr>
+                <td id="add">
+                    补充您的邮件地址和联系人基本信息
+                    </pre>
+                </td>
+            </tr>
+        </table>
+        <div id="info">
+            <label for="receiver">收&nbsp;件&nbsp;人：</label>  <input type="text" id="receiver"> <br/>
+            <label for="site">地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：</label><input type="text" id="site"><br/>
+            <label for="tel1"> 电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</label><input type="text" id="tel1" maxlength="3">-
+            <input id="tel2" type="text" maxlength="9">-
+            <input id="tel3" type="text" maxlength="4">
+            <div id="submit"><input type="image" src="images/submit.gif"></div>
+        </div>
+
+    </form>
+    <div id="foot">
+        <iframe src="foot.html"></iframe>
+    </div>
+</div>
+
+</body>
+</html>

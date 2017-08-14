@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>head</title>
+    <link rel="stylesheet" href="css/head.css">
+    <script type="text/javascript">
+        window.onload=function(){
+            var time_obj =document.getElementById("time");
+            function clock(){
+                var time=new Date();
+                var year=time.getFullYear();
+                var month=time.getMonth()+1;
+                var day=time.getDate();
+                var hours=time.getHours();
+                var minutes=time.getMinutes();
+                var seconds=time.getSeconds();
+                time_obj.innerHTML="";
+                time_obj.innerText=year+"年"+month+"月"+day+"日"+hours+"时"+minutes+"分"+seconds+"秒";
+            }
+            setInterval(function(){clock()},1000)
+        }
+    </script>
+</head>
+<body>
+<div>
+    <div id="head"><!--网页头部-->
+        <div id="subnav">
+            <ul>
+                <li class="headpic" id="pic1"></li>
+                <li><a href="javascript:window.parent.location.href='cart.html'">购物车</a></li>
+                <li class="headpic" id="pic2"></li>
+                <li><a href="javascript:window.parent.location.href='help.html'">帮助中心</a></li>
+                <li class="headpic" id="pic3"></li>
+                <li>加入收藏</li>
+                <li class="headpic" id="pic4"></li>
+                <li>设为首页</li>
+                <li >
+
+                    <a href="javascript:window.parent.location.href='login.html'"><input type="button" value="登陆">  </a>              </li>
+                <li>
+                    <a href="javascript:window.parent.location.href='register.html'"><input type="button" value="注册"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="wealcome">欢迎访问贵美商城！<span id="time"></span></div>
+        <div id="nav">
+            <ul>
+                <li><a href="javascript:window.parent.location.href='index.html'">首页</a></li>
+                <li><a href="#">家用电器</a></li>
+                <li><a href="#">手机数码</a></li>
+                <li><a href="#">日用百货</a></li>
+                <li><a href="#">书籍</a></li>
+                <li><a href="javascript:window.parent.location.href='help.html'">帮助中心</a></li>
+                <li><a href="#">免费开店</a></li>
+                <li><a href="#">全球咨询</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+    <!--头结束-->
+
+
+</div>
+</div>
+</body>
+</html>

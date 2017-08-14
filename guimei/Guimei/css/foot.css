@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#foot {
+    font-size: 12px;
+    width: 986px;
+    text-align: center;
+    margin: auto;
+    height: 150px;
+}
+
+#foot ul {
+    list-style-type: none;
+}
+
+#foot ul li {
+    display: inline;
+    text-align: center;
+
+}
+
+#foot p {
+    line-height: 15px;
+    text-align: center;
+
+}

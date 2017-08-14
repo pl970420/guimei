@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    width: 976px;
+    height: 150px;
+    margin: auto;
+}
+#foot {
+
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+iframe {
+    width: 1000px;
+    height: 150px;
+    border: 0;
+}
+
+#container {
+
+    margin: auto;
+    width: 977px;
+    height: 184px;
+    border: red 1px;
+    font-family: "微软雅黑";
+    font-size: 10px;
+    background: url("../images/login_bg.gif") no-repeat;
+}
+
+#left {
+    float: left;
+    width: 500px;
+    height: 600px;
+    border-right: 1px solid #cccccc;
+
+}
+
+#left img {
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#login {
+    font-size: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+#login_pic{
+    float: left;
+}
+#piclogin {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#lefttext {
+    float: left;
+    margin-top: 40px;;
+    margin-left: 15px;
+    line-height: 44px;
+}
+
+#righttext ul li {
+
+}
+
+#right {
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+
+#right img {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+#register{
+    width: 30px;
+    height: 50px;
+    float: left;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+#righttext {
+
+    float: left;
+    margin-left: 60px;
+    margin-top: 70px;
+    line-height: 30px;
+}
+
+#p1 {
+    list-style-image: url("../images/diann.png");
+}
+
+#p2 {
+    list-style-image: url("../images/dun.png");
+}
+
+#p3 {
+    list-style-image: url("../images/qian.png");
+}
+
+#p4 {
+    list-style-image: url("../images/kaf.png");
+}
+
+.blue {
+    color: deepskyblue;
+}
+
+#registernow {
+    float: left;
+    margin-left: 100px;
+    margin-top: -10px;
+    width: 160px;
+    height: 10px;
+}
+#righttable{
+    width: 200px;
+    height: 100px;
+    margin-top: 300px;
+    margin-left: 70px;
+    background-color: orange;
+
+}
+#tips{
+    width: 200px;
+    height: 50px;
+    background:orange;
+
+}
+#tips tr td{
+    width: 10px;
+    height: 10px;
+    background: wheat;
+
+}
+#small{
+    margin: 10px;
+}
